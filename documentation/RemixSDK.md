@@ -112,7 +112,7 @@ Material:
 * To register, call `remixapi_Interface::CreateMaterial` specifying `remixapi_MaterialInfo`, but `.pNext` must be a pointer to one of:
     * `remixapi_MaterialInfoOpaqueEXT` -- for a generic material
     * `remixapi_MaterialInfoTranslucentEXT` -- for a glass material
-* For the default values, corresponding default constructors can be examined in the C++ wrapper [remix.h](../../../public/include/remix/remix.h)
+* For the default values, corresponding default constructors can be examined in the C++ wrapper [remix.h](/public/include/remix/remix.h)
 * *Note: at the time of writing, the material API is still not refined to work with non-file image data, and overall structure just reflects the internal representation of materials, which might be not as simple to use. The primary subject to change.*
 
 Light:
