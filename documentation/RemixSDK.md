@@ -38,7 +38,7 @@ After a successful build, the necessary SDK files will be located in the public/
 As with other rendering engines, there are common steps of
 initialiazation, resource registration (meshes, materials, lights), and submitting the said resources to each frame to be rendered.
 
-[remixapi_example_c.c](RemixAPI_C/remixapi_example_c.c) contains a minimal example in C to render a path traced triangle using the Remix API.
+[remixapi_example_c.c](/tests/rtx/apps/RemixAPI_C/remixapi_example_c.c) contains a minimal example in C to render a path traced triangle using the Remix API.
 
 
 <details>
@@ -144,7 +144,7 @@ Push a camera, mesh instances and lights to define a scene for the *current* fra
 
 *Note: to set `rtx.conf` options at runtime, use `remixapi_Interface::SetConfigVariable`*
 
-*Note: [remixapi_example_c.c](RemixAPI_C/remixapi_example_c.c) contains all the steps listed above, and should draw a triangle.*
+*Note: [remixapi_example_c.c](/tests/rtx/apps/RemixAPI_C/remixapi_example_c.c) contains all the steps listed above, and should draw a triangle.*
 
 
 
